@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ept-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Instant Weather</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="barra-de-pesquisa">
+
+            <input 
+                class="header-input"
+                id="barra-de-pesquisa-input"
+                type="text" 
+                placeholder="Temperatura de qual cidade?">
+            <button
+                type="submit"
+                value="enviar"
+                class="header-button"
+                id="barra-de-pesquisa-botao"> 
+            <img 
+                class="header-imagem"
+                src="assets/search-icon.svg" 
+                alt="Ícone de uma lupa">
+            </button>
+
+        </div>
+
+        <div 
+            class="header-data-atual" 
+            id="data-atual">
+            ...
+        </div>
+
+        <div 
+            class="header-nome-cidade" 
+            id="cidade-nome">
+            ...
+        </div>
+
+    </header>
+
+    <section class="temperatura-atual">
+        <img 
+            class="img-main" 
+            id="icone-tempo"
+            src="assets/loading-icon.svg"
+            aria-hidden="true" 
+            alt="ilustração da temperatura atual">
+
+
+        <div 
+            class="condiçao-tempo"
+            id="condiçao-tempo">
+            ...
+        </div>
+
+        <div class="tempo-agora-label">Tempo agora</div>
+
+        <div 
+            class="temperaturavalor"
+            id="temperatura-valor"
+            >...
+        </div>
+
+    </section>
+
+    <div class="sessao-inferior">
+
+        <section class="detalhes-inferior">
+
+            <div class="detalhes-inferior-item">
+                <div class="detalhes-inferior-label">Vento</div>
+
+                <div 
+                    class="detalhes-inferior-value"
+                    id="velocidade-vento">
+                    ...
+                </div>
+
+            </div>
+
+            <div class="detalhes-inferior-item">
+                <div class="detalhes-inferior-label">Sensação</div>
+
+                <div 
+                    class="detalhes-inferior-value"
+                    id="sensaçao-termica">
+                    ...
+                </div>
+
+            </div>
+
+            <div class="detalhes-inferior-item">
+                <div class="detalhes-inferior-label">Umidade</div>
+
+                <div 
+                    class="detalhes-inferior-value"
+                    id="umidade-valor">
+                    ...
+                </div>
+
+            </div>
+        </section>
+
+        <section class="nascer-sol-caixa">
+
+            <div class="nascer-sol-item">
+                <img class="img-nascer-sol" src="assets/sunrise.svg" alt="Nascer do sol">
+
+                <div 
+                    class="nascer-sol-value"
+                    id="nascer-sol-time">
+                    ...
+                </div>
+
+            </div>
+
+            <div class="por-sol-item">
+                <img class="img-por-sol" src="assets/sunset.svg" alt="por do sol">
+
+                <div 
+                    class="por-sol-value"
+                    id="por-sol-time">
+                    ...
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
