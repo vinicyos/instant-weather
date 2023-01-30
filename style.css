@@ -87,6 +87,10 @@ body {
 
 }
 
+.condiçao-tempo::first-letter {
+    text-transform: uppercase;
+}
+
 .condiçao-tempo {
     color: #b6aef0;
     font-weight: 500px;
