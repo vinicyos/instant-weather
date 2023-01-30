@@ -87,7 +87,7 @@ body {
 
 }
 
-.condiçao-tempo::first-letter {
+.condiçao-tempo:first-letter {
     text-transform: uppercase;
 }
 
