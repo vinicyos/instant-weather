@@ -4,5 +4,7 @@ Aplicação web para verificação de detalhes sobre o clima, na sua localizaç�
 
 Criada com o intuito de praticar HTML, CSS E JavaScritp
 
+deploy: https://vinicyos.github.io/instant-weather/
+
 
 <img align="right" alt="aplicação" style="border-radius:50px;" src="https://uploaddeimagens.com.br/images/004/317/553/original/WhatsApp_Image_2023-01-26_at_00.04.51.jpeg?1674960642#vitrinedev">
